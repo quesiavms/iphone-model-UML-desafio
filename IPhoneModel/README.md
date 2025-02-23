@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <title>Diagrama UML</title>
-    <script type="module">
-        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
-        mermaid.initialize({ startOnLoad: true });
-    </script>
-</head>
-<body>
-    <pre class="mermaid">
     classDiagram
         class iPhone {
             +ReprodutorMusical reprodutor
@@ -38,6 +26,5 @@
         iPhone --> ReprodutorMusical
         iPhone --> AparelhoTelefonico
         iPhone --> NavegadorInternet
-    </pre>
-</body>
-</html>
+
+  ![alt text](image.png)
